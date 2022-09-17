@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #126d97;
+    align-items: center;
+    height: 75px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li > a {   
+    margin-left: 50px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+li > a:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: red;
+}
+
+main {
+    background: url("36d3cc0e76d6d4ac436fe446aea4ab86.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
